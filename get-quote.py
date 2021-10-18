@@ -17,7 +17,7 @@ def primary():
   
   print(quotes[-1])
    
-  last = 13
+  last = len(quotes) - 1
   rnd = random.randint(0, last)
   print(quotes[rnd])
   for quote in quotes:
